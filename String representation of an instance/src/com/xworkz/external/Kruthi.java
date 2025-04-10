@@ -1,28 +1,28 @@
 package com.xworkz.external;
 
-import com.xworkz.internal.Chochalate;
+import com.xworkz.internal.Student;
 
-public class KinderJoy extends Chochalate {
+public class Kruthi extends Student {
     private String name;
-    private int price;
+    private int age;
     private char grade;
-    public KinderJoy(String name,int price,char grade)
+    public Kruthi(String name,int age,char grade)
     {
-        this.grade=grade;
+        this.age=age;
         this.name=name;
-        this.price=price;
+        this.grade=grade;
     }
     @Override
     public int hashCode()
     {
         System.out.println(super.hashCode());
-        return 85220;
+        return 1814;
     }
     @Override
     public String toString() {
-        return "Manch{" +
+        return "Kruthi{" +
                 "name='" + name + '\'' +
-                ", price=" + price +
+                ", age=" + age +
                 ", grade=" + grade +
                 '}';
     }
