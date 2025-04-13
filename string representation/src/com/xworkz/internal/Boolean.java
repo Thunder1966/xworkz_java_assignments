@@ -1,4 +1,4 @@
 package com.xworkz.internal;
 
-public class Dog {
+public class Boolean {
 }
