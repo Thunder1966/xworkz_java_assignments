@@ -5,7 +5,7 @@ import com.xworkz.internal.*;
 public class MainRunner {
     public static void main(String[] args) {
         Fan fan = new FanImpl();
-        fan.changeSpeed();;;;;;
+        fan.changeSpeed();
         fan.turnOff();
         fan.turnOn();
         Oven oven = new OvenImpl();
